@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema"
+         xmlns:ext="com.anylogic"
+         version="1.4.0">
+   <asset>
+      <content>Traffic light type 3.x3d Blender 2.78 (sub 0)</content>
+      <up_axis>Y_UP</up_axis>
+   </asset>
+   <library_geometries>
+      <geometry id="coords_ME_ID39_MA_material-geometry" name="coords_ME_ID39">
+         <mesh>
+            <source id="coords_ME_ID39-source-position" name="position">
+               <float_array id="coords_ME_ID39-position-array" count="81">32.634880 71.850388 226.597290 87.357628 71.850388 230.085800 39.793591 71.850388 213.305695 72.817490 71.850388 252.286087 98.017639 71.850388 243.962692 72.329987 71.850388 99.847237 112.887497 71.850388 163.807190 96.006180 71.850388 94.112450 87.014671 71.850388 175.637497 130.896103 71.850388 180.717896 112.597008 71.850388 219.899796 159.282089 71.850388 211.197495 161.779007 71.850388 223.294388 160.505890 71.850388 235.580597 155.286194 71.850388 264.622803 79.643875 71.850388 268.025024 173.426010 71.850388 218.187012 185.624893 71.850388 271.834503 188.655502 71.850388 215.646088 168.464005 71.850388 260.787781 90.305168 71.850388 284.420898 120.808800 71.850388 296.232697 102.079994 71.850388 294.408203 111.363594 71.850388 297.988800 147.454498 71.850388 146.420593 194.763016 71.850388 106.930595 176.073700 71.850388 91.305069</float_array>
+               <technique_common>
+                  <accessor count="27" source="#coords_ME_ID39-position-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <source id="coords_ME_ID39_normal-source-normal" name="normal">
+               <float_array id="coords_ME_ID39_normal-normal-array" count="6">0.00000 1.00000 0.00000  0.00000 1.00000 0.00000 </float_array>
+               <technique_common>
+                  <accessor count="2" source="#coords_ME_ID39_normal-normal-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <vertices id="verts">
+               <input semantic="POSITION" source="#coords_ME_ID39-source-position"/>
+            </vertices>
+            <triangles count="25" material="MA_material">
+               <input offset="0" semantic="VERTEX" source="#verts"/>
+               <input offset="1"
+                      semantic="NORMAL"
+                      source="#coords_ME_ID39_normal-source-normal"/>
+               <p>0 0 1 0 2 0 1 1 0 1 3 1 1 0 3 0 4 0 5 0 6 0 7 0 6 1 5 1 8 1 6 1 8 1 9 1 9 1 8 1 10 1 9 0 10 0 11 0 11 1 10 1 12 1 12 0 10 0 4 0 12 1 4 1 13 1 13 1 4 1 14 1 14 1 4 1 3 1 14 1 3 1 15 1 16 1 17 1 18 1 17 1 16 1 19 1 17 1 19 1 14 1 17 1 14 1 15 1 17 1 15 1 20 1 17 1 20 1 21 1 21 1 20 1 22 1 21 1 22 1 23 1 24 1 25 1 26 1 25 1 24 1 11 1 11 1 24 1 9 1 </p>
+            </triangles>
+         </mesh>
+      </geometry>
+      <geometry id="coords_ME_ID31_MA_material_1-geometry" name="coords_ME_ID31">
+         <mesh>
+            <source id="coords_ME_ID31-source-position" name="position">
+               <float_array id="coords_ME_ID31-position-array" count="294">159.282089 71.850388 211.197495 173.426010 71.850388 218.187012 188.655502 71.850388 215.646088 161.779007 71.850388 223.294388 168.464005 71.850388 260.787781 160.505890 71.850388 235.580597 155.286194 71.850388 264.622803 194.763016 71.850388 106.930595 263.695587 71.850388 92.068588 176.073700 71.850388 91.305069 263.695587 71.850388 108.537895 255.330002 71.850388 125.453400 238.287491 71.850388 147.839401 224.261093 71.850388 176.118011 212.440796 71.850388 218.918289 185.624893 71.850388 271.834503 212.440796 71.850388 247.677689 217.340393 71.850388 250.154007 222.280487 71.850388 250.154007 339.473083 71.850388 221.093887 341.980194 71.850388 278.838898 341.980194 71.850388 219.291092 333.235077 71.850388 303.203705 348.289978 71.850388 284.649597 358.583282 71.850388 284.649597 39.793591 71.850388 213.305695 112.597008 71.850388 219.899796 87.014671 71.850388 175.637497 87.357628 71.850388 230.085800 98.017639 71.850388 243.962692 96.006180 71.850388 94.112450 147.454498 71.850388 146.420593 112.887497 71.850388 163.807190 130.896103 71.850388 180.717896 97.042595 71.850388 296.254028 111.363594 71.850388 297.988800 102.079994 71.850388 294.408203 101.660400 71.850388 296.861877 105.963501 71.850388 298.644287 244.973099 71.850388 221.888489 251.289398 71.850388 294.690399 251.289398 71.850388 219.206192 233.623795 71.850388 243.055588 120.808800 71.850388 296.232697 256.674896 71.850388 300.458679 109.658600 71.850388 301.479706 309.031097 71.850388 224.805389 312.380280 71.850388 224.239700 310.422882 71.850388 222.848007 310.625793 71.850388 301.419586 303.771698 71.850388 311.796600 316.612488 71.850388 307.562592 327.935181 71.850388 307.562592 273.715088 71.850388 296.073883 280.516083 71.850388 224.805389 278.628204 71.850388 222.812897 280.516083 71.850388 311.262604 267.997498 71.850388 300.458679 112.494003 71.850388 305.174896 114.276398 71.850388 309.478027 114.884300 71.850388 314.095703 287.043884 71.850388 317.835907 114.276398 71.850388 318.713501 297.680389 71.850388 317.835907 19.685040 71.850388 27.838850 381.609985 71.850388 19.685040 27.838850 71.850388 19.685040 389.763794 71.850388 27.838850 72.329987 71.850388 99.847237 32.634880 71.850388 226.597290 19.685040 71.850388 381.609985 72.817490 71.850388 252.286087 79.643875 71.850388 268.025024 90.305168 71.850388 284.420898 84.426590 71.850388 301.479706 88.121727 71.850388 298.644287 92.424820 71.850388 296.861877 81.591209 71.850388 305.174896 79.808807 71.850388 309.478027 79.200867 71.850388 314.095703 79.808807 71.850388 318.713501 81.591209 71.850388 323.016602 84.426590 71.850388 326.711700 88.121727 71.850388 329.547089 92.424820 71.850388 331.329498 97.042595 71.850388 331.937500 372.069489 71.850388 175.055099 389.763794 71.850388 381.609985 349.473206 71.850388 92.068588 368.733093 71.850388 163.162292 353.659393 71.850388 123.009697 364.672882 71.850388 278.608490 112.494003 71.850388 323.016602 109.658600 71.850388 326.711700 105.963501 71.850388 329.547089 101.660400 71.850388 331.329498 27.838850 71.850388 389.763794 381.609985 71.850388 389.763794</float_array>
+               <technique_common>
+                  <accessor count="98" source="#coords_ME_ID31-position-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <source id="coords_ME_ID31_normal-source-normal" name="normal">
+               <float_array id="coords_ME_ID31_normal-normal-array" count="6">0.00000 1.00000 0.00000  0.00000 1.00000 0.00000 </float_array>
+               <technique_common>
+                  <accessor count="2" source="#coords_ME_ID31_normal-normal-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <vertices id="verts">
+               <input semantic="POSITION" source="#coords_ME_ID31-source-position"/>
+            </vertices>
+            <triangles count="102" material="MA_material_1">
+               <input offset="0" semantic="VERTEX" source="#verts"/>
+               <input offset="1"
+                      semantic="NORMAL"
+                      source="#coords_ME_ID31_normal-source-normal"/>
+               <p>0 0 1 0 2 0 1 0 0 0 3 0 1 0 3 0 4 0 4 0 3 0 5 0 4 0 5 0 6 0 7 1 8 1 9 1 8 0 7 0 10 0 10 0 7 0 0 0 10 0 0 0 11 0 11 0 0 0 12 0 12 0 0 0 13 0 13 0 0 0 14 0 14 0 0 0 2 0 14 0 2 0 15 0 14 1 15 1 16 1 16 0 15 0 17 0 17 1 15 1 18 1 19 0 20 0 21 0 20 0 19 0 22 0 20 0 22 0 23 0 23 0 22 0 24 0 25 1 26 1 27 1 26 0 25 0 28 0 26 0 28 0 29 0 30 0 31 0 9 0 31 0 30 0 32 0 31 0 32 0 33 0 34 0 35 0 36 0 35 0 34 0 37 0 35 0 37 0 38 0 39 1 40 1 41 1 40 1 39 1 42 1 40 0 42 0 18 0 40 0 18 0 15 0 40 0 15 0 43 0 40 0 43 0 44 0 44 0 43 0 35 0 44 0 35 0 38 0 44 0 38 0 45 0 46 0 47 0 48 0 47 0 46 0 49 0 49 0 46 0 50 0 49 1 50 1 51 1 51 0 50 0 52 0 53 0 54 0 55 0 54 0 53 0 56 0 56 0 53 0 57 0 56 0 57 0 44 0 56 1 44 1 45 1 56 0 45 0 58 0 56 0 58 0 59 0 56 0 59 0 60 0 56 0 60 0 61 0 61 0 60 0 62 0 61 0 62 0 63 0 64 0 65 0 66 0 65 0 64 0 67 0 67 1 64 1 30 1 30 1 64 1 68 1 68 0 64 0 69 0 69 0 64 0 70 0 67 0 30 0 9 0 68 0 69 0 25 0 68 0 25 0 27 0 69 0 70 0 71 0 71 0 70 0 72 0 72 0 70 0 73 0 73 0 70 0 74 0 73 0 74 0 75 0 73 0 75 0 76 0 73 0 76 0 36 0 36 0 76 0 34 0 74 0 70 0 77 0 77 0 70 0 78 0 78 0 70 0 79 0 79 0 70 0 80 0 80 0 70 0 81 0 81 0 70 0 82 0 82 0 70 0 83 0 83 0 70 0 84 0 84 0 70 0 85 0 67 0 86 0 87 0 86 0 67 0 88 0 88 0 67 0 9 0 88 0 9 0 8 0 86 0 88 0 89 0 89 0 88 0 90 0 87 0 86 0 91 0 87 1 91 1 24 1 87 1 24 1 22 1 87 0 22 0 52 0 87 0 52 0 50 0 87 0 50 0 63 0 87 0 63 0 62 0 87 0 62 0 92 0 87 0 92 0 93 0 87 0 93 0 94 0 87 0 94 0 95 0 87 1 95 1 85 1 87 0 85 0 70 0 87 0 70 0 96 0 87 0 96 0 97 0 </p>
+            </triangles>
+         </mesh>
+      </geometry>
+      <geometry id="coords_ME_ID25_MA_material_0-geometry" name="coords_ME_ID25">
+         <mesh>
+            <source id="coords_ME_ID25-source-position" name="position">
+               <float_array id="coords_ME_ID25-position-array" count="168">409.448792 80.511810 19.685040 389.763794 0.000000 0.000000 389.763794 80.511810 0.000000 409.448792 0.000000 19.685040 0.000000 80.511810 19.685040 19.685040 80.511810 27.838850 27.838850 80.511810 19.685040 0.000000 80.511810 389.763794 19.685040 80.511810 381.609985 27.838850 80.511810 389.763794 19.685040 80.511810 409.448792 381.609985 80.511810 389.763794 409.448792 80.511810 389.763794 389.763794 80.511810 409.448792 389.763794 80.511810 0.000000 19.685040 80.511810 0.000000 409.448792 80.511810 19.685040 381.609985 80.511810 19.685040 389.763794 80.511810 27.838850 389.763794 80.511810 381.609985 409.448792 80.511810 19.685040 409.448792 0.000000 389.763794 409.448792 0.000000 19.685040 409.448792 80.511810 389.763794 409.448792 0.000000 19.685040 19.685040 0.000000 0.000000 389.763794 0.000000 0.000000 0.000000 0.000000 19.685040 409.448792 0.000000 389.763794 0.000000 0.000000 389.763794 389.763794 0.000000 409.448792 19.685040 0.000000 409.448792 389.763794 80.511810 0.000000 19.685040 0.000000 0.000000 19.685040 80.511810 0.000000 389.763794 0.000000 0.000000 19.685040 80.511810 0.000000 0.000000 0.000000 19.685040 0.000000 80.511810 19.685040 19.685040 0.000000 0.000000 0.000000 80.511810 389.763794 0.000000 0.000000 19.685040 0.000000 0.000000 389.763794 0.000000 80.511810 19.685040 19.685040 80.511810 409.448792 0.000000 0.000000 389.763794 19.685040 0.000000 409.448792 0.000000 80.511810 389.763794 389.763794 0.000000 409.448792 19.685040 80.511810 409.448792 19.685040 0.000000 409.448792 389.763794 80.511810 409.448792 409.448792 80.511810 389.763794 389.763794 0.000000 409.448792 409.448792 0.000000 389.763794 389.763794 80.511810 409.448792</float_array>
+               <technique_common>
+                  <accessor count="56" source="#coords_ME_ID25-position-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <source id="coords_ME_ID25_normal-source-normal" name="normal">
+               <float_array id="coords_ME_ID25_normal-normal-array" count="39">0.70711 0.00000 -0.70711  0.00000 1.00000 0.00000  0.00000 1.00000 0.00000  0.00000 0.00000 0.00000  1.00000 0.00000 0.00000  0.00000 -1.00000 0.00000  0.00000 -1.00000 0.00000  0.00000 0.00000 -1.00000  -0.70711 0.00000 -0.70711  -1.00000 0.00000 0.00000  -0.70711 0.00000 0.70711  0.00000 0.00000 1.00000  0.70711 0.00000 0.70711 </float_array>
+               <technique_common>
+                  <accessor count="13" source="#coords_ME_ID25_normal-normal-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <vertices id="verts">
+               <input semantic="POSITION" source="#coords_ME_ID25-source-position"/>
+            </vertices>
+            <triangles count="38" material="MA_material_0">
+               <input offset="0" semantic="VERTEX" source="#verts"/>
+               <input offset="1"
+                      semantic="NORMAL"
+                      source="#coords_ME_ID25_normal-source-normal"/>
+               <p>0 0 1 0 2 0 1 0 0 0 3 0 4 1 5 1 6 1 5 2 4 2 7 2 5 1 7 1 8 1 8 1 7 1 9 1 9 1 7 1 10 1 9 2 10 2 11 2 11 1 10 1 12 1 12 2 10 2 13 2 4 2 14 2 15 2 14 2 4 2 16 2 16 3 4 3 6 3 16 3 6 3 17 3 16 1 17 1 18 1 16 1 18 1 12 1 12 1 18 1 19 1 12 2 19 2 11 2 20 4 21 4 22 4 21 4 20 4 23 4 24 5 25 5 26 5 25 5 24 5 27 5 27 6 24 6 28 6 27 6 28 6 29 6 29 6 28 6 30 6 29 5 30 5 31 5 32 7 33 7 34 7 33 7 32 7 35 7 36 8 37 8 38 8 37 8 36 8 39 8 40 9 41 9 42 9 41 9 40 9 43 9 44 10 45 10 46 10 45 10 44 10 47 10 48 11 49 11 50 11 49 11 48 11 51 11 52 12 53 12 54 12 53 12 52 12 55 12 </p>
+            </triangles>
+         </mesh>
+      </geometry>
+      <geometry id="coords_ME_ID17_MA_material_0-geometry" name="coords_ME_ID17">
+         <mesh>
+            <source id="coords_ME_ID17-source-position" name="position">
+               <float_array id="coords_ME_ID17-position-array" count="96">389.763794 71.850388 27.838850 381.609985 80.511810 19.685040 381.609985 71.850388 19.685040 389.763794 80.511810 27.838850 381.609985 71.850388 19.685040 27.838850 80.511810 19.685040 27.838850 71.850388 19.685040 381.609985 80.511810 19.685040 389.763794 80.511810 381.609985 389.763794 71.850388 27.838850 389.763794 71.850388 381.609985 389.763794 80.511810 27.838850 27.838850 71.850388 19.685040 19.685040 80.511810 27.838850 19.685040 71.850388 27.838850 27.838850 80.511810 19.685040 381.609985 80.511810 389.763794 389.763794 71.850388 381.609985 381.609985 71.850388 389.763794 389.763794 80.511810 381.609985 19.685040 80.511810 27.838850 19.685040 71.850388 381.609985 19.685040 71.850388 27.838850 19.685040 80.511810 381.609985 381.609985 80.511810 389.763794 27.838850 71.850388 389.763794 27.838850 80.511810 389.763794 381.609985 71.850388 389.763794 19.685040 80.511810 381.609985 27.838850 71.850388 389.763794 19.685040 71.850388 381.609985 27.838850 80.511810 389.763794</float_array>
+               <technique_common>
+                  <accessor count="32" source="#coords_ME_ID17-position-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <source id="coords_ME_ID17_normal-source-normal" name="normal">
+               <float_array id="coords_ME_ID17_normal-normal-array" count="24">-0.70711 0.00000 0.70711  0.00000 0.00000 1.00000  -1.00000 0.00000 0.00000  0.70711 0.00000 0.70711  -0.70711 0.00000 -0.70711  1.00000 0.00000 0.00000  0.00000 0.00000 -1.00000  0.70711 0.00000 -0.70711 </float_array>
+               <technique_common>
+                  <accessor count="8" source="#coords_ME_ID17_normal-normal-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <vertices id="verts">
+               <input semantic="POSITION" source="#coords_ME_ID17-source-position"/>
+            </vertices>
+            <triangles count="16" material="MA_material_0">
+               <input offset="0" semantic="VERTEX" source="#verts"/>
+               <input offset="1"
+                      semantic="NORMAL"
+                      source="#coords_ME_ID17_normal-source-normal"/>
+               <p>0 0 1 0 2 0 1 0 0 0 3 0 4 1 5 1 6 1 5 1 4 1 7 1 8 2 9 2 10 2 9 2 8 2 11 2 12 3 13 3 14 3 13 3 12 3 15 3 16 4 17 4 18 4 17 4 16 4 19 4 20 5 21 5 22 5 21 5 20 5 23 5 24 6 25 6 26 6 25 6 24 6 27 6 28 7 29 7 30 7 29 7 28 7 31 7 </p>
+            </triangles>
+         </mesh>
+      </geometry>
+      <geometry id="coords_ME_ID11_MA_material-geometry" name="coords_ME_ID11">
+         <mesh>
+            <source id="coords_ME_ID11-source-position" name="position">
+               <float_array id="coords_ME_ID11-position-array" count="117">212.440796 71.850388 218.918289 244.973099 71.850388 221.888489 251.289398 71.850388 219.206192 212.440796 71.850388 247.677689 233.623795 71.850388 243.055588 222.280487 71.850388 250.154007 217.340393 71.850388 250.154007 263.695587 71.850388 108.537895 349.473206 71.850388 92.068588 263.695587 71.850388 92.068588 353.659393 71.850388 123.009697 255.330002 71.850388 125.453400 368.733093 71.850388 163.162292 238.287491 71.850388 147.839401 224.261093 71.850388 176.118011 372.069489 71.850388 175.055099 341.980194 71.850388 219.291092 364.672882 71.850388 278.608490 341.980194 71.850388 278.838898 358.583282 71.850388 284.649597 348.289978 71.850388 284.649597 278.628204 71.850388 222.812897 251.289398 71.850388 294.690399 339.473083 71.850388 221.093887 273.715088 71.850388 296.073883 256.674896 71.850388 300.458679 267.997498 71.850388 300.458679 280.516083 71.850388 224.805389 310.422882 71.850388 222.848007 309.031097 71.850388 224.805389 280.516083 71.850388 311.262604 303.771698 71.850388 311.796600 287.043884 71.850388 317.835907 297.680389 71.850388 317.835907 312.380280 71.850388 224.239700 333.235077 71.850388 303.203705 310.625793 71.850388 301.419586 316.612488 71.850388 307.562592 327.935181 71.850388 307.562592</float_array>
+               <technique_common>
+                  <accessor count="39" source="#coords_ME_ID11-position-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <source id="coords_ME_ID11_normal-source-normal" name="normal">
+               <float_array id="coords_ME_ID11_normal-normal-array" count="6">0.00000 1.00000 0.00000  0.00000 1.00000 0.00000 </float_array>
+               <technique_common>
+                  <accessor count="2" source="#coords_ME_ID11_normal-normal-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <vertices id="verts">
+               <input semantic="POSITION" source="#coords_ME_ID11-source-position"/>
+            </vertices>
+            <triangles count="37" material="MA_material">
+               <input offset="0" semantic="VERTEX" source="#verts"/>
+               <input offset="1"
+                      semantic="NORMAL"
+                      source="#coords_ME_ID11_normal-source-normal"/>
+               <p>0 0 1 0 2 0 1 0 0 0 3 0 1 0 3 0 4 0 4 0 3 0 5 0 5 0 3 0 6 0 7 0 8 0 9 0 8 0 7 0 10 0 10 0 7 0 11 0 10 0 11 0 12 0 12 1 11 1 13 1 12 0 13 0 14 0 12 1 14 1 15 1 15 0 14 0 16 0 15 0 16 0 17 0 16 0 14 0 0 0 16 0 0 0 2 0 17 0 16 0 18 0 17 0 18 0 19 0 19 0 18 0 20 0 2 0 21 0 16 0 21 0 2 0 22 0 16 0 21 0 23 0 21 0 22 0 24 0 24 1 22 1 25 1 24 0 25 0 26 0 27 0 28 0 21 0 28 0 27 0 29 0 29 0 27 0 30 0 29 0 30 0 31 0 31 0 30 0 32 0 31 0 32 0 33 0 23 0 34 0 35 0 34 0 23 0 28 0 28 0 23 0 21 0 35 0 34 0 36 0 35 0 36 0 37 0 35 0 37 0 38 0 </p>
+            </triangles>
+         </mesh>
+      </geometry>
+      <geometry id="coords_ME_ID3_MA_material-geometry" name="coords_ME_ID3">
+         <mesh>
+            <source id="coords_ME_ID3-source-position" name="position">
+               <float_array id="coords_ME_ID3-position-array" count="72">92.424820 71.850388 296.861877 101.660400 71.850388 296.861877 97.042595 71.850388 296.254028 88.121727 71.850388 298.644287 105.963501 71.850388 298.644287 84.426590 71.850388 301.479706 109.658600 71.850388 301.479706 81.591209 71.850388 305.174896 112.494003 71.850388 305.174896 79.808807 71.850388 309.478027 114.276398 71.850388 309.478027 79.200867 71.850388 314.095703 114.884300 71.850388 314.095703 79.808807 71.850388 318.713501 114.276398 71.850388 318.713501 81.591209 71.850388 323.016602 112.494003 71.850388 323.016602 84.426590 71.850388 326.711700 109.658600 71.850388 326.711700 88.121727 71.850388 329.547089 105.963501 71.850388 329.547089 92.424820 71.850388 331.329498 101.660400 71.850388 331.329498 97.042595 71.850388 331.937500</float_array>
+               <technique_common>
+                  <accessor count="24" source="#coords_ME_ID3-position-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <source id="coords_ME_ID3_normal-source-normal" name="normal">
+               <float_array id="coords_ME_ID3_normal-normal-array" count="6">0.00000 1.00000 0.00000  0.00000 1.00000 0.00000 </float_array>
+               <technique_common>
+                  <accessor count="2" source="#coords_ME_ID3_normal-normal-array" stride="3">
+                     <param name="X" type="float"/>
+                     <param name="Y" type="float"/>
+                     <param name="Z" type="float"/>
+                  </accessor>
+               </technique_common>
+            </source>
+            <vertices id="verts">
+               <input semantic="POSITION" source="#coords_ME_ID3-source-position"/>
+            </vertices>
+            <triangles count="22" material="MA_material">
+               <input offset="0" semantic="VERTEX" source="#verts"/>
+               <input offset="1"
+                      semantic="NORMAL"
+                      source="#coords_ME_ID3_normal-source-normal"/>
+               <p>0 0 1 0 2 0 1 1 0 1 3 1 1 0 3 0 4 0 4 0 3 0 5 0 4 1 5 1 6 1 6 1 5 1 7 1 6 1 7 1 8 1 8 1 7 1 9 1 8 1 9 1 10 1 10 1 9 1 11 1 10 1 11 1 12 1 12 1 11 1 13 1 12 1 13 1 14 1 14 1 13 1 15 1 14 1 15 1 16 1 16 0 15 0 17 0 16 1 17 1 18 1 18 1 17 1 19 1 18 1 19 1 20 1 20 1 19 1 21 1 20 1 21 1 22 1 22 1 21 1 23 1 </p>
+            </triangles>
+         </mesh>
+      </geometry>
+   </library_geometries>
+   <library_effects>
+      <effect id="MA_material-material">
+         <profile_COMMON>
+            <newparam sid="creaseAngle">
+               <float>0</float>
+            </newparam>
+            <technique sid="COMMON">
+               <phong>
+                  <emission>
+                     <color>0.000 0.000 0.000 1</color>
+                  </emission>
+                  <specular>
+                     <color>0.401 0.401 0.401 1</color>
+                  </specular>
+                  <shininess>
+                     <float>50</float>
+                  </shininess>
+                  <transparency>
+                     <float>1</float>
+                  </transparency>
+                  <diffuse>
+                     <color>0.250 0.250 0.250 1</color>
+                  </diffuse>
+               </phong>
+            </technique>
+         </profile_COMMON>
+      </effect>
+      <effect id="MA_material_1-material">
+         <profile_COMMON>
+            <newparam sid="creaseAngle">
+               <float>0</float>
+            </newparam>
+            <technique sid="COMMON">
+               <phong>
+                  <emission>
+                     <color>0.000 0.000 0.000 1</color>
+                  </emission>
+                  <specular>
+                     <color>0.401 0.401 0.401 1</color>
+                  </specular>
+                  <shininess>
+                     <float>50</float>
+                  </shininess>
+                  <transparency>
+                     <float>1</float>
+                  </transparency>
+                  <diffuse>
+                     <color>0.284 0.284 0.284 1</color>
+                  </diffuse>
+               </phong>
+            </technique>
+         </profile_COMMON>
+      </effect>
+      <effect id="MA_material_0-material">
+         <profile_COMMON>
+            <newparam sid="creaseAngle">
+               <float>0</float>
+            </newparam>
+            <technique sid="COMMON">
+               <phong>
+                  <emission>
+                     <color>0.000 0.000 0.000 1</color>
+                  </emission>
+                  <specular>
+                     <color>0.401 0.401 0.401 1</color>
+                  </specular>
+                  <shininess>
+                     <float>50</float>
+                  </shininess>
+                  <transparency>
+                     <float>1</float>
+                  </transparency>
+                  <diffuse>
+                     <color>0.848 0.809 0.103 1</color>
+                  </diffuse>
+               </phong>
+            </technique>
+         </profile_COMMON>
+      </effect>
+   </library_effects>
+   <library_images/>
+   <library_materials>
+      <material id="MA_material" name="MA_material">
+         <instance_effect url="#MA_material-material"/>
+      </material>
+      <material id="MA_material_1" name="MA_material_1">
+         <instance_effect url="#MA_material_1-material"/>
+      </material>
+      <material id="MA_material_0" name="MA_material_0">
+         <instance_effect url="#MA_material_0-material"/>
+      </material>
+   </library_materials>
+   <library_visual_scenes>
+      <visual_scene id="VisualSceneNode" name="VisualScene">
+         <node id="coords_ME_ID39_MA_material" name="coords_ME_ID39_MA_material">
+            <matrix> 0.00000 0.02540 0.00000 -1.02250 -0.02540 0.00000 0.00000 5.20000 0.00000 0.00000 0.02540 29.99999 0.00000 0.00000 0.00000 1.00000 </matrix>
+            <instance_geometry url="#coords_ME_ID39_MA_material-geometry">
+               <bind_material>
+                  <technique_common>
+                     <instance_material symbol="MA_material" target="#MA_material"/>
+                  </technique_common>
+               </bind_material>
+            </instance_geometry>
+         </node>
+         <node id="coords_ME_ID31_MA_material_1" name="coords_ME_ID31_MA_material_1">
+            <matrix> 0.00000 0.02540 0.00000 -1.02250 -0.02540 0.00000 0.00000 5.20000 0.00000 0.00000 0.02540 29.99999 0.00000 0.00000 0.00000 1.00000 </matrix>
+            <instance_geometry url="#coords_ME_ID31_MA_material_1-geometry">
+               <bind_material>
+                  <technique_common>
+                     <instance_material symbol="MA_material_1" target="#MA_material_1"/>
+                  </technique_common>
+               </bind_material>
+            </instance_geometry>
+         </node>
+         <node id="coords_ME_ID25_MA_material_0" name="coords_ME_ID25_MA_material_0">
+            <matrix> 0.00000 0.02540 0.00000 -1.02250 -0.02540 0.00000 0.00000 5.20000 0.00000 0.00000 0.02540 29.99999 0.00000 0.00000 0.00000 1.00000 </matrix>
+            <instance_geometry url="#coords_ME_ID25_MA_material_0-geometry">
+               <bind_material>
+                  <technique_common>
+                     <instance_material symbol="MA_material_0" target="#MA_material_0"/>
+                  </technique_common>
+               </bind_material>
+            </instance_geometry>
+         </node>
+         <node id="coords_ME_ID17_MA_material_0" name="coords_ME_ID17_MA_material_0">
+            <matrix> 0.00000 0.02540 0.00000 -1.02250 -0.02540 0.00000 0.00000 5.20000 0.00000 0.00000 0.02540 29.99999 0.00000 0.00000 0.00000 1.00000 </matrix>
+            <instance_geometry url="#coords_ME_ID17_MA_material_0-geometry">
+               <bind_material>
+                  <technique_common>
+                     <instance_material symbol="MA_material_0" target="#MA_material_0"/>
+                  </technique_common>
+               </bind_material>
+            </instance_geometry>
+         </node>
+         <node id="coords_ME_ID11_MA_material" name="coords_ME_ID11_MA_material">
+            <matrix> 0.00000 0.02540 0.00000 -1.02250 -0.02540 0.00000 0.00000 5.20000 0.00000 0.00000 0.02540 29.99999 0.00000 0.00000 0.00000 1.00000 </matrix>
+            <instance_geometry url="#coords_ME_ID11_MA_material-geometry">
+               <bind_material>
+                  <technique_common>
+                     <instance_material symbol="MA_material" target="#MA_material"/>
+                  </technique_common>
+               </bind_material>
+            </instance_geometry>
+         </node>
+         <node id="coords_ME_ID3_MA_material" name="coords_ME_ID3_MA_material">
+            <matrix> 0.00000 0.02540 0.00000 -1.02250 -0.02540 0.00000 0.00000 5.20000 0.00000 0.00000 0.02540 29.99999 0.00000 0.00000 0.00000 1.00000 </matrix>
+            <instance_geometry url="#coords_ME_ID3_MA_material-geometry">
+               <bind_material>
+                  <technique_common>
+                     <instance_material symbol="MA_material" target="#MA_material"/>
+                  </technique_common>
+               </bind_material>
+            </instance_geometry>
+         </node>
+      </visual_scene>
+   </library_visual_scenes>
+   <scene>
+      <instance_visual_scene url="#VisualSceneNode"/>
+   </scene>
+</COLLADA>
